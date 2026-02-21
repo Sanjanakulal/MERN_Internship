@@ -15,6 +15,8 @@ import Importmodule from './Components/ES7/Importmodule'
 import Ternaryoperator from './Components/ES7/Ternaryoperator'
 import Props from './Components/ES7/Props'
 import HookUseState from './Components/Hook/HookUseState'
+import Counter from './Components/Hook/Counter'
+import ThemeToggle from './Components/Hook/ThemeToggle'
 
 
 
@@ -37,6 +39,8 @@ export default function App() {
            <Route path='/Ternaryoperator' element={<Ternaryoperator/>} />
            <Route path='/Props' element={<Props name="sanjana" />} />
            <Route path='/HookUseState' element={<HookUseState/>} />
+           <Route path='/Counter' element={<Counter/>} />
+           <Route path='/ThemeToggle' element={<ThemeToggle/>} />
             
         </Routes>
      </BrowserRouter>
