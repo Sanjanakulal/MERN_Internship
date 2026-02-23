@@ -5,7 +5,7 @@ export default function ThemeToggle() {
 
 
   const handleToggle = () => setDark(!dark)
- 
+
 
   return (
     <div
@@ -18,6 +18,7 @@ export default function ThemeToggle() {
       }}
     >
       <h2>{dark ? "Dark Mode" : "Light Mode"}</h2>
+      <p>{dark ? "Theme is vital to a story for many reasons but arguably the most important is that it is through thematic ideas that a writer most creates resonance and emotion in an audience. " : " Theme is the inferred stance taken on the central topic or message of a story.Themes are used to communicate important ideas and messages about issues that face the characters and the setting of a narrative."}</p>
 
       <button
         onClick={handleToggle}

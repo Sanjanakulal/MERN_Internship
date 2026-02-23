@@ -25,7 +25,7 @@ export default function HookUseState() {
 
 
   return (
-    <div>
+    <div >
       <h3>my favorite color is {favcolor}</h3>
       <button onClick={handlechange}>change color</button>
 

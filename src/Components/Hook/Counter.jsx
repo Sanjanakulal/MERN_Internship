@@ -17,8 +17,9 @@ export default function Counter() {
   }
     return (
         <div style={{ textAlign: "center", marginTop: "40px" }}>
-            <h2>Count: {count}</h2>
-             <button style={btnStyle} onClick={handleincrement}>Increment</button>
+            {/* <h2>Count:<span style={{color:count>=0 && count <=5 ? "blue" : "red"}}>{count}</span></h2> */}
+            <h2>Count:{count}</h2>
+            <button style={btnStyle} onClick={handleincrement}>Increment</button>
             <button style={btnStyle} onClick={handledecrement}>Decrement</button>
             <button style={btnStyle} onClick={handlereset}>Reset</button>
         </div>
