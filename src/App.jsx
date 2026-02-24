@@ -17,6 +17,10 @@ import Props from './Components/ES7/Props'
 import HookUseState from './Components/Hook/HookUseState'
 import Counter from './Components/Hook/Counter'
 import ThemeToggle from './Components/Hook/ThemeToggle'
+import HookUseEffect from './Components/Hook/HookUseEffect'
+import ApiAxios from './Components/Hook/ApiAxios'
+import AxiosTask from './Components/Hook/AxiosTask'
+import AxiosCard from './Components/Hook/AxiosCard'
 
 
 
@@ -41,6 +45,10 @@ export default function App() {
            <Route path='/HookUseState' element={<HookUseState/>} />
            <Route path='/Counter' element={<Counter/>} />
            <Route path='/ThemeToggle' element={<ThemeToggle/>} />
+           <Route path='/HookUseEffect' element={<HookUseEffect/>} />
+           <Route path='/ApiAxios' element={<ApiAxios/>} />
+          <Route path='/AxiosTask' element={<AxiosTask/>} />
+          <Route path='/AxiosCard' element={<AxiosCard/>} />
             
         </Routes>
      </BrowserRouter>

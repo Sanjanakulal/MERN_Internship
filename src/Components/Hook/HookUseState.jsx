@@ -23,7 +23,6 @@ export default function HookUseState() {
    })
    
 
-
   return (
     <div >
       <h3>my favorite color is {favcolor}</h3>

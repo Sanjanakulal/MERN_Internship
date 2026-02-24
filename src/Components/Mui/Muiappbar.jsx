@@ -18,7 +18,9 @@ const pages = [
     {name:"Arrow",path:"/Arrowfunction"},
     {name:"Spread",path:"/Spreadoperator"},
     {name:"Destructuring",path:"/Destructuring"},
-    {name:"MediaCard",path:"/MediaCard"}
+    {name:"MediaCard",path:"/MediaCard"},
+    {name:"UseEffect",path:"/HookUseEffect"},
+    {name:"ApiAxios",path:"/ApiAxios"}
 ];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 

@@ -24,10 +24,11 @@ export default function ThemeToggle() {
         onClick={handleToggle}
         style={{
           padding: "6px 12px",
-          backgroundColor: "lightblue",
+          backgroundColor: dark ? "white" : "black",
           border: "none",
           borderRadius: "4px",
           cursor: "pointer",
+          color: dark ? "black" : "white",
         }}
       >
         Toggle Theme
